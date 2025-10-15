@@ -1,7 +1,7 @@
 from pycon25cvosbpapp import app_hello
 
 
-def main() -> None:
+def main(*args: dict) -> None:
     print(app_hello())
 
 

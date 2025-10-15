@@ -56,3 +56,6 @@ ignore = [
 [tool.mypy]
 files = ["src/"]
 disallow_untyped_defs = true
+
+[project.scripts]
+pycon25cvosbpapp = "pycon25cvosbpapp.__main__:main"

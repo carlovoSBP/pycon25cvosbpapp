@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/carlovoSBP/paleofuturistic_python",
+  "commit": "f2ab6820eea0a8afea7a931165d202e82ac010ab",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "pycon25cvosbpapp",
+      "project_slug": "pycon25cvosbpapp",
+      "project_description": "PyCon Demo app",
+      "full_name": "Carlo van Overbeek",
+      "email": "cvanoverbeek@schubergphilis.com",
+      "python_version": "3.12",
+      "_template": "https://github.com/carlovoSBP/paleofuturistic_python",
+      "_commit": "f2ab6820eea0a8afea7a931165d202e82ac010ab"
+    }
+  },
+  "directory": null
+}

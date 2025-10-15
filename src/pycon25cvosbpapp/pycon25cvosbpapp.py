@@ -1,14 +1,12 @@
-def hello(someone: str = "you") -> str:
-    """Greet someone.
+from pycon25cvosbp import hello
 
-    Parameters
-    ----------
-    someone : str, default='you'
-        The name of the person to greet, by default 'you'
+
+def app_hello() -> str:
+    """Greet the app.
 
     Returns
     -------
     str
         A greeting message
     """
-    return f"Hello {someone} from pycon25cvosbpapp!"
+    return hello("app")

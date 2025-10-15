@@ -7,7 +7,9 @@ authors = [
     {name = "Carlo van Overbeek", email = "cvanoverbeek@schubergphilis.com"},
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pycon25cvosbp>=0.1.0",
+]
 classifiers = [
     # License
     "License :: OSI Approved :: Apache Software License",

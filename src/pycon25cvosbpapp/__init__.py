@@ -1,5 +1,5 @@
-from .pycon25cvosbpapp import hello
+from .pycon25cvosbpapp import app_hello
 
 __all__ = [
-    "hello",
+    "app_hello",
 ]

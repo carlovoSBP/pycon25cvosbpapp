@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from pycon25cvosbpapp import hello
+from pycon25cvosbpapp import app_hello
 
 
 class TestSmoke(TestCase):
@@ -8,4 +8,4 @@ class TestSmoke(TestCase):
         self.assertTrue(True)
 
     def test_integration(self):
-        self.assertEqual("Hello you from pycon25cvosbpapp!", hello())
+        self.assertEqual("Hello app from pycon25cvosbp!", app_hello())
